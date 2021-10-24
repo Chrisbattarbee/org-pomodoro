@@ -14,3 +14,4 @@ Customizable variable:
 
 ## Dependencies
 * [terminal-notifier](https://github.com/julienXX/terminal-notifier) `brew install terminal-notifier`
+* MacOS
