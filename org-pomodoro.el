@@ -18,6 +18,13 @@
   (executable-find "terminal-notifier")
   "The path to terminal-notifier.")
 
+(defvar org-pomodoro.el/bind-key
+  "M-p"
+  "The shortcut to run org-pomodoro-start."
+  )
+
+(define-key global-map (kbd org-pomodoro.el/bind-key) 'org-pomodoro-start)
+
 (defun terminal-notifier-notify (title message)
   "Show a MESSAGE with TITLE using `terminal-notifier-command`."
   (start-process "terminal-notifier"
